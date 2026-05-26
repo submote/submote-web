@@ -13,7 +13,7 @@ export default defineConfig(() => {
       },
     },
     build: {
-      outDir: 'docs', // Compiles directly into /docs directory for easy native GitHub Pages deployment
+      outDir: 'dist', // Compiles directly into /dist directory as requested
       emptyOutDir: true,
     },
     server: {
