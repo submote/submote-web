@@ -1,0 +1,6 @@
+{
+  "name": "Submote",
+  "description": "SaaS landing page and interactive engine simulator for automated, real-time AI Twitch and Discord emote generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

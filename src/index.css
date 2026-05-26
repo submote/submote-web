@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Custom high-tech vibrant SaaS colors mapped to Cyan/Blue Immersive Theme */
+  --color-brand-purple: #06b6d4; /* map legacy purple/violet elements safely to high-impact cyan */
+  --color-brand-violet: #2563eb; /* map to deep immersive blue */
+  --color-brand-cyan: #22d3ee;
+  --color-brand-neon: #10b981;
+  --color-brand-dark: #050505;
+}
+
+/* Custom dark scrollbar and retro grid patterns */
+body {
+  background-color: #050505;
+  color: #ffffff;
+  font-family: var(--font-sans);
+}
+
+.bg-grid-pattern {
+  background-size: 30px 30px;
+  background-image: linear-gradient(to right, rgba(34, 211, 238, 0.05) 1px, transparent 1px),
+                    linear-gradient(to bottom, rgba(34, 211, 238, 0.05) 1px, transparent 1px);
+}
+
+.bg-dot-pattern {
+  background-size: 20px 20px;
+  background-image: radial-gradient(circle, rgba(34, 211, 238, 0.1) 1px, transparent 1px);
+}
+
+.bg-radial-glow {
+  background: radial-gradient(circle at 50% 50%, rgba(6, 182, 212, 0.12), transparent 70%);
+}
+
+/* Glassmorphism utility card */
+.glass-panel {
+  background: rgba(13, 13, 13, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-light {
+  background: rgba(20, 20, 20, 0.4);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Pixelation filter effect if supported, otherwise normal */
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
