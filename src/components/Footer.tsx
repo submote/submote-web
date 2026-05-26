@@ -16,8 +16,8 @@ export default function Footer({ onScrollToSection }: FooterProps) {
           {/* Brand Col */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2.5">
-              <div className="h-7 w-7 rounded-lg bg-neutral-900 border border-white/10 flex items-center justify-center">
-                <Zap className="h-3.5 w-3.5 text-cyan-400" />
+              <div className="h-7 w-7 rounded-lg bg-neutral-900 border border-white/10 flex items-center justify-center overflow-hidden">
+                <img src="/favicon.png" alt="Submote Logo" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
               </div>
               <span className="font-display font-bold text-white text-base">
                 Sub<span className="text-cyan-400">mote</span>

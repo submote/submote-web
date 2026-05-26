@@ -22,8 +22,8 @@ export default function Navigation({ onScrollToSection }: NavigationProps) {
           className="flex cursor-pointer items-center space-x-2.5 hover:opacity-90 transition-opacity"
           id="nav-logo"
         >
-          <div className="w-8 h-8 bg-gradient-to-br from-cyan-400 to-blue-600 rounded-lg flex items-center justify-center shadow-[0_0_15px_rgba(34,211,238,0.2)]">
-            <span className="font-black text-xs text-black">SM</span>
+          <div className="w-8 h-8 bg-neutral-900 rounded-lg overflow-hidden flex items-center justify-center shadow-[0_0_15px_rgba(34,211,238,0.2)] border border-white/10">
+            <img src="/favicon.png" alt="Submote Logo" className="w-full h-full object-cover" referrerPolicy="no-referrer" />
           </div>
           <div>
             <span className="font-display text-xl font-black tracking-tighter text-white uppercase">
